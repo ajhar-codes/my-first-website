@@ -46,3 +46,20 @@ img {
     object-fit: cover;
     border-radius: 50%;
 }
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+p, h1, h2 {
+    overflow-wrap: break-word;
+}
